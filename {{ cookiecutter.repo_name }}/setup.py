@@ -6,5 +6,4 @@ setup(
     version='2.0.0',
     description='''{{ cookiecutter.description }}''',
     author='{{ cookiecutter.author_name }}',
-    license='{% if cookiecutter.open_source_license == 'MIT' %}MIT{% elif cookiecutter.open_source_license == 'BSD-2-Clause' %}BSD-2{% endif %}',
 )
